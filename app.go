@@ -29,20 +29,20 @@
 
 //functions
 
-// package main
-// import( "fmt")
-// func fact(a int) int{
-// 	if(a==0){
-// 		return 1;
-// 	}else{
-// 		return a*fact(a-1);
-// 	}
-// }
-// func main(){
-// 	var n int;
-// 	fmt.Scan(&n)
-// 	fmt.Print(fact(n))
-// }
+package main
+import( "fmt")
+func fact(a int) int{
+	if(a==0){
+		return 1;
+	}else{
+		return a*fact(a-1);
+	}
+}
+func maain(){
+	var n int;
+	fmt.Scan(&n)
+	fmt.Print(fact(n))
+}
 
 //multiple return func add(a,b int)(a+b int,a int)(implicit return) there is no need to return values just return is enough and no need to declare variables
 // if else if else
@@ -283,18 +283,18 @@ default:
 //     *a= *a+b
 // }
 
-func maain(){
-    x:=5
-    y:=10
-    add(&x,y)
-    fmt.Println(x,y)
-}
-without pointers
-package main 
-import "fmt"
-func add(a,b int){
-    a= a+b
-}
+// func maain(){
+//     x:=5
+//     y:=10
+//     add(&x,y)
+//     fmt.Println(x,y)
+// }
+// without pointers
+// package main 
+// import "fmt"
+// func add(a,b int){
+//     a= a+b
+// }
 
 // func main(){
 //     x:=5
