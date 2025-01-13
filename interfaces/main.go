@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
-
+	
 	"example/interface/note"
 	"example/interface/todo"
 )
@@ -82,3 +82,29 @@ func getUserInput(prompt string) string {
 
 	return text
 }
+
+
+//any value allowed types
+// func printSomething(val interface{}){
+// 	fmt.Println(val)
+// }
+
+// switch value.(type)
+
+// func add(a,b interface{})interface{}{
+// 	aint,aisint:=a.(int)
+// 	bint,bisint:=b.(int)
+// 	if aisint && bisint{
+// 		return aint+bint
+// 	}
+
+// }
+
+//generics
+// func main(){
+// 	result:=add(1,2)
+// 	fmt.Print(result)
+// }
+// func add[T int|float64|string](a,b T)T{
+// 	return a+b
+// }
