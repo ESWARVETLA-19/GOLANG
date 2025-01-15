@@ -84,3 +84,7 @@ func main(){
 // 	course.output()
 // 	//make(map[type]type,capacity)
 // }
+
+//2d array var arr [n][m]int
+//b = [...]int{100, 3: 400, 500} //... compiler counts the number elements
+//op=[100,0,0,400,500] 
